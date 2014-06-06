@@ -1,0 +1,21 @@
+<?php namespace Search\View;?>
+
+<html>
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" type="text/css" href="search.css">
+    </head>
+    <body>
+        <div id="header">
+            <form id="newsearch" method="GET" action="/">
+                <input type="text" class="textinput" name="q" id="q" size="21" maxlength="120">
+                <input type="submit" value="search" id="search" class="button">
+            </form>
+            <div class="clear"></div>
+        </div>
+        <div id="blocks"></div>
+
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="search.js"></script>
+    </body>
+</html>
