@@ -6,15 +6,15 @@ All code writen in php without using any frameworks and libraries.
 
 Search Implementation
 
- * Search\Service\SearchExtended validate arguments generate url base on provided arguments.
- * Search\Service\SearchExtendedResponce generate response data.
- * Search\Service\SearchService contain all business logic for search.
+ * Search\Service\SearchExtended - validate arguments generate url base on provided arguments.
+ * Search\Service\SearchExtendedResponce - generate response data.
+ * Search\Service\SearchService - contain all business logic for search.
 
 Simple mvc
 
  * Search\Controller\SearchController.
- * Search\View\Json ajax json response.
- * Search\View\View  http response.
+ * Search\View\Json - ajax json response.
+ * Search\View\View  - http response.
 
 html/js
 
